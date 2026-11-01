@@ -1,0 +1,5 @@
+#!/bin/sh
+while ! sv check ../pipewire; do
+  sleep 1
+done
+exec chpst -e "$TURNSTILE_ENV_DIR" wireplumber
