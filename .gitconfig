@@ -1,0 +1,10 @@
+[user]
+	name = kise82
+	email = kise82@pm.me
+	signingkey = /home/user/.ssh/gh-sign.pub
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[init]
+	defaultBranch = main
