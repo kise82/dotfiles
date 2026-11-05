@@ -13,4 +13,4 @@ dec() {
 alias gh-auth='echo -n '\''SSH:kise82@GH-Auth'\'' | kg; ssh-add "$HOME/.ssh/gh-auth"'
 alias gh-sign='echo -n '\''SSH:kise82@GH-Sign'\'' | kg; ssh-add "$HOME/.ssh/gh-sign"'
 
-[[ -n "$(command -v hx)" ]] || alias hx='helix'
+[[ -z "$(command -v hx)" ]] && alias hx='helix'
