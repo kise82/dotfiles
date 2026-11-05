@@ -1,6 +1,6 @@
 export EDITOR=helix
 
-eval $(ssh-agent -s)
+[[ -z "$SSH_AGENT_PID" ]] && eval $(ssh-agent -s)
 
 
 # Added by Antigravity CLI installer
